@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+/dist/
+
+# Environment variables
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+
+# Build output
+/dist/
+/*.js
+/*.js.map
+/*.css
+/*.css.map
+/*.ico
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.svg
+/index.html
+/main-es5.*.js
+/main-es2015.*.js
+/polyfills-es5.*.js
+/polyfills-es2015.*.js
+/runtime-es5.*.js
+/runtime-es2015.*.js
+/styles.*.css
+/vendor.*.js
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+*.komodoproject.*
+
+# Logs and cache files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.eslintcache
